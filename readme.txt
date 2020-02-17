@@ -1,8 +1,8 @@
-          AtHomeDetector - alanesq@disroot.org - Jan2020
+          AtHomeDetector - alanesq@disroot.org - Feb2020
           ==============================================
         
 This is a project I created for a friend so that his home automation system would know if he is at home or not,
-it does this by monitoring the wifi for his phone and if no data has been transmitted to or from his phone
+it does this by passively monitoring the wifi for his phone, if no data has been transmitted to or from his phone
 for a certain length of time it assumes he has gone out and so switches the status of an IO pin to signify
 this to his home automation (by switching a relay in this case).
 
